@@ -1,8 +1,9 @@
-@ECHO OFF
-
-: Code source: https://stackoverflow.com/a/10052222
+: Code snippet source: https://stackoverflow.com/a/10052222
 : Prompts the user to grant the script Administrator Access.
 : The script must run with Administrator Access to prevent each indivdual application installer/updater from prompting the user for consent.
+@echo off
+
+:: BatchGotAdmin
 :-------------------------------------
 REM  --> Check for permissions
     IF "%PROCESSOR_ARCHITECTURE%" EQU "amd64" (
@@ -32,7 +33,6 @@ if '%errorlevel%' NEQ '0' (
 :--------------------------------------    
 
 : Script start
-
 ECHO Updating update tool "winget"...
 ECHO;
 : Documentation source: https://learn.microsoft.com/en-us/windows/package-manager/winget/upgrade
