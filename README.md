@@ -10,7 +10,9 @@ The Windows Package Manager  is the official, free and open-source package manag
 
 ## Installation and Getting Started
 
-1. **Download** the **latest Release** from the [Releases](https://github.com/Freddythereal/windows-applications-updater/releases) page.
+1. **Install** the [**App-Installer**](https://apps.microsoft.com/store/detail/app-installer/9NBLGGH4NNS1) from the **Microsoft Store**.
+
+1. **Download** the **latest Release** from the [**Releases**](https://github.com/Freddythereal/windows-applications-updater/releases) page.
 
 1. **Run** the **windows-applications-updater.bat** file by performing a double-left-click on it.
 
@@ -18,7 +20,7 @@ The Windows Package Manager  is the official, free and open-source package manag
 
     > Do you want to allow this app to make changes to your device?
     
-    **Select** the **Yes** button by performing a single-left-click on it.<br>
+    **Select** the **Yes button** by performing a single-left-click on it.
 
 1. **Wait** for the script to finish. Afterwards the terminal window will close itself.
 
