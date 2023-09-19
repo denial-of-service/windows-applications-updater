@@ -21,12 +21,13 @@ Install it by **downloading** [**App-Installer**](https://apps.microsoft.com/sto
 
      `Do you want to allow this app to make changes to your device?`
     
-    **Select** the **Yes** button by performing a single-left-click on it.
+    **Select** the **Yes** button by performing a single-left-click on it.[^3]
 
 1. **Wait** for the script to finish. Afterwards the terminal window will close itself.
 
 [^1]: Winget (also known as Windows Package Manager) is the official, free and open-source package manager designed by Microsoft for Windows 10 and Windows 11.
 [^2]: App-Installer is an official and free Microsoft package that includes winget.
+[^3]: The script must run with Administrator Access. Otherwise each indivdual application installer/updater would have to prompt the user for consent before being able to run.
 
 ## Additional Information
 
