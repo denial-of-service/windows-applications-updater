@@ -13,7 +13,7 @@ windows-applications-updater is a simple batch script that automatically updates
 1. This script requires you to have [winget](https://learn.microsoft.com/windows/package-manager/winget/)[^1] installed to work.<br>
 Install it by **downloading** [**App-Installer**](https://apps.microsoft.com/store/detail/app-installer/9NBLGGH4NNS1)[^2] from the **Microsoft Store**.
 
-1. **Download** the **latest Release** from the [**Releases**](https://github.com/Freddythereal/windows-applications-updater/releases) page.
+1. **Download** the **latest Release** of this script from the [**Releases**](https://github.com/Freddythereal/windows-applications-updater/releases) page.
 
 1. **Run** the **windows-applications-updater.bat** file by performing a double-left-click on it.
 
