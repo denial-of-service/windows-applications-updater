@@ -30,7 +30,8 @@ Install it by **downloading** [**App-Installer**](https://apps.microsoft.com/sto
 
 ## Additional Information
 
-- Performing a **left-click** on the terminal window will **pause** the exectution of the script. **Press Enter** to **resume** it.
+- Performing a **left-click** on the terminal window will **pause** the exectution of the script.<br>
+**Press Enter** to **resume** it.
 
 ## License
 
