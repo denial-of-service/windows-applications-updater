@@ -1,0 +1,11 @@
+# 1. Run list-installed-packages.cmd to get the list of installed packages on this device. 
+# 2. Copy the ids of the packages you don't want to be updated and paste them in here. Use a new line for each package id.
+# 3. Make sure to save the file.
+# 4. Run windows-applications-updater.cmd to update all packages except the ones you listed in this file.
+# Lines starting with # are ignored by the script.
+# Example (You would have to remove the # in front of the package ids for them to actually be ignored):
+#--------------------------------------------------------------------------------------------------
+#Mozilla.Firefox
+#Google.Chrome
+#Microsoft.DotNet.SDK.8
+#--------------------------------------------------------------------------------------------------
