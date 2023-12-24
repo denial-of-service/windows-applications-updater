@@ -152,7 +152,7 @@ function GetSkippablePackageIds {
     [string]$ExclusionFilePath = $PSScriptRoot + "\blackListedPackages.txt"
     [boolean]$FileExists = Test-Path -Path $ExclusionFilePath -PathType Leaf    
     if (-not $FileExists) {
-        Write-Host "Exclusions file not found, all packages will be updated to their latest version" -ForegroundColor Red | Write-Output
+        Write-Host "Exclusions file not found, all packages will be updated to their latest version.`n" -ForegroundColor Red | Write-Output
         return [string[]]@()
     }
     [object[]]$ExclusionFileContent = Get-Content $ExclusionFilePath
